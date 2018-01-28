@@ -1,14 +1,14 @@
-# vue-nuxt-netfx
+# vuetify-nuxt-netfx
 
 ASP.NET Framework Vue Nuxt.js App Template
 
-[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/vue-nuxt.png)](http://vue-nuxt.web-templates.io/)
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/vuetify-nuxt.png)](http://vuetify-nuxt.web-templates.io/)
 
-> Browse [source code](https://github.com/NetFrameworkTemplates/vue-nuxt-netfx), view live demo [vue-nuxt.web-templates.io](http://vue-nuxt.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
+> Browse [source code](https://github.com/NetFrameworkTemplates/vuetify-nuxt-netfx), view live demo [vuetify-nuxt.web-templates.io](http://vuetify-nuxt.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
     $ npm install -g @servicestack/cli
 
-    $ dotnet-new vue-nuxt-netfx ProjectName
+    $ dotnet-new vuetify-nuxt-netfx ProjectName
 
 ## Description
 
@@ -41,7 +41,7 @@ Whilst Nuxt.js is a JavaScript (ES 6/7) App it still benefits from [ServiceStack
     $ npm run dtos
 
 This will update the Servers `dtos.ts` and generate its corresponding `dtos.js` which can be imported as normal classes as seen in 
-[gateway.js](https://github.com/NetCoreTemplates/vue-nuxt/blob/master/MyApp/src/shared/gateway.js#L3). Despite the App not being built with TypeScript, developing using a "TypeScript-aware" IDE like VS Code will still be able to utilize the TypeScript classes in [@servicestack/client](https://github.com/ServiceStack/servicestack-client) and the generated `dtos.ts` to provide a rich, typed intelli-sense experience.
+[gateway.js](https://github.com/NetCoreTemplates/vuetify-nuxt/blob/master/MyApp/src/shared/gateway.js#L3). Despite the App not being built with TypeScript, developing using a "TypeScript-aware" IDE like VS Code will still be able to utilize the TypeScript classes in [@servicestack/client](https://github.com/ServiceStack/servicestack-client) and the generated `dtos.ts` to provide a rich, typed intelli-sense experience.
 
 ## Generate Static Production Build
 
@@ -59,4 +59,4 @@ Create a release client build of your App by running the `publish` Gulp task or 
 
     $ npm run publish
 
-Update [/Properties/PublishProfiles/PublishToIIS.pubxml](https://github.com/NetFrameworkTemplates/vue-nuxt-netfx/blob/master/MyApp/Properties/PublishProfiles/PublishToIIS.pubxml) with the Server Info you wish to deploy to, then you can click `Publish...` on your projects right-click context menu to deploy your App using the `PublishToIIS` MS WebDeploy Profile.
+Update [/Properties/PublishProfiles/PublishToIIS.pubxml](https://github.com/NetFrameworkTemplates/vuetify-nuxt-netfx/blob/master/MyApp/Properties/PublishProfiles/PublishToIIS.pubxml) with the Server Info you wish to deploy to, then you can click `Publish...` on your projects right-click context menu to deploy your App using the `PublishToIIS` MS WebDeploy Profile.

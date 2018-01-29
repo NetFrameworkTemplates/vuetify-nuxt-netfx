@@ -131,6 +131,7 @@
     <Content Include="src\store\README.md" />
     <Content Include="Web.config" />
     <Content Include="src\components\VuetifyLogo.vue" />
+    <Content Include="tsconfig.json" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
